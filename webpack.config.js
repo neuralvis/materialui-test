@@ -15,6 +15,7 @@ module.exports = {
     //options for webpack-dev-server
     devServer: {
         publicPath: '/dist/',
+        port: 9000,
     },
 
     mode: "production",
